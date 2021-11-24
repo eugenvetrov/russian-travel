@@ -29,3 +29,9 @@
   }
 
 }
+
+@media screen and (min-width: 1184px) {
+  .footer__menu {
+    margin-left: 0;
+  }
+}

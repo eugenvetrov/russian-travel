@@ -17,21 +17,17 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .intro__text {
-    margin: 40px 4.7vw 0;
-    min-width: 720px;
-    min-height: 208px;
-    max-width: 720px;
-    max-height: 208px;
+    margin: 40px 3.125vw 0;
+    width: 720px;
+    height: 208px;
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .intro__text {
     margin: 40px 0 0;
-    min-width: 690px;
-    min-height: 208px;
-    max-width: 690px;
-    max-height: 208px;
+    width: 690px;
+    height: 208px;
   }
 }
 
@@ -40,7 +36,5 @@
     margin: 38px 0 0;
     min-width: 690px;
     min-height: 208px;
-    max-width: 690px;
-    max-height: 208px;
   }
 }

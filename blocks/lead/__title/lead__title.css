@@ -6,7 +6,6 @@
   margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
-  flex-wrap: wrap;
 }
 
 @media screen and (max-width: 1279px){
@@ -21,25 +20,12 @@
   }
 }
 
-@media screen and (max-width: 574px) {
+@media screen and (max-width: 767px) {
   .lead__title {
   font-size: 40px;
   line-height: 44px;
-  min-width: 288px;
-  min-height: 88px;
-  max-width: 288px;
-  max-height: 199px;
-  }
-}
-
-@media screen and (min-width: 575px) and (max-width: 767px) {
-  .lead__title {
-  font-size: 80px;
-  line-height: 88px;
-  min-width: 576px;
-  min-height: 176px;
-  max-width: 576px;
-  max-height: 199px;
+  min-width: 90vw;
+  max-width: 27.5vw;
   }
 }
 
@@ -47,6 +33,7 @@
   .lead__title {
   font-size: 96px;
   line-height: 100px;
-  min-width: 93.75vw;;
+  max-width: 720px;
+  max-height: 200px;
   }
 }

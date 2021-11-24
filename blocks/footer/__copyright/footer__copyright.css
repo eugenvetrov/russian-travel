@@ -26,3 +26,9 @@
     margin: 94px 48px 24px 0;
   }
 }
+
+@media screen and (min-width: 1184px) {
+  .footer__copyright {
+    margin-right: 0;
+  }
+}
